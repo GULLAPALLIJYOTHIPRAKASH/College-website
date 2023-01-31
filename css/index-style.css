@@ -1,0 +1,204 @@
+/* campuses section */
+.campuse-section-container{
+    background-color: rgba(255, 192, 203, 0.598);
+}
+
+.campuse-section-container .title{
+    color:#3777aa;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.campuse-section-container .underline{
+    width: 65px;
+    height: 5px;
+    background-color: #3777aa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.single-campuse{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.3px 0.3px 11px 0.3px;
+    border-radius: 10px 10px;
+    transition: 0.2s linear;
+
+}
+.single-campuse:hover{
+    transform: translateY(-2px) scale(1.002);
+    box-shadow: 0.5px 0.5px 11px 0.5px;
+}
+.single-campuse .img-container{
+    aspect-ratio: 355/250;
+    position: relative;
+}
+.single-campuse .img-container .location {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,50%);
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    padding:10px;   
+    border: 7px solid pink;
+
+}
+.single-campuse .img-container .location:hover{
+    background-color: pink;
+    border-color: rgba(142, 226, 226, 0.366);
+
+}
+.single-campuse .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s linear;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+}
+
+.campuse-info{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.single-campuse .campuse-info .campuse-title{
+    color: #3777aa;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.campuse-info .desc {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.campuse-info .address{
+    color: #3777aa;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .single-campuse .img-container{
+        aspect-ratio: 355/300;
+    }
+    
+}
+
+/* facilities section */
+.facilities-section-container {
+    background-color: rgba(127, 255, 212, 0.378);
+}
+
+.facilities-section-container .title{
+    color:#3777aa;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.facilities-section-container .underline{
+    width: 65px;
+    height: 5px;
+    background-color: #3777aa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.single-facility{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0.3px 0.3px 11px 0.3px;
+    transition: 0.3s linear;
+    border-radius: 10px 10px;
+}
+.single-facility:hover{
+    transform: translateY(-2px) scale(1.002);
+    box-shadow: 0.5px 0.5px 11px 0.5px;
+}
+.single-facility .img-container {
+    aspect-ratio: 355/300;
+    overflow: hidden;
+}
+.single-facility .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s linear;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.facility-info .facility-title{
+    color: #3777aa;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.facility-info .desc{
+    color: #3777aa;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+
+.single-facility .img-container{
+    aspect-ratio: 355/300;
+}
+
+.single-facility:hover img{
+   transform: scaleX(1.009) scaleY(1.009);
+}
+
+}
