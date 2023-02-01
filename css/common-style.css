@@ -23,6 +23,7 @@ body{
     padding-right: 20px;
 }
 
+
 *:focus{
     outline-color: rgb(129, 129, 206);
     outline-width:2px ;
